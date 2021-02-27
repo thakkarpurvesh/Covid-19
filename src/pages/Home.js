@@ -95,7 +95,7 @@ function Home() {
       </div>
       <br />
       <h2
-        data-tip="Last modified date: 28/12/2020 - v1.0"
+        data-tip="Last modified date: 27/02/2021 - v1.0"
         style={{ textAlign: "center" }}
       >
         COVID-19 Live Now
@@ -181,7 +181,8 @@ function Home() {
         </Card>
       </CardDeck>
       <br />
-      <Form>
+      {/* //Search for countries */}
+      {/* <Form>
         <Form.Group controlId="formGroupSearch">
           <Form.Control
             bg="dark"
@@ -190,8 +191,9 @@ function Home() {
             onChange={(e) => setSearchCountries(e.target.value)}
           />
         </Form.Group>
-      </Form>
-      <Columns queries={queries}>{countries}</Columns>
+      </Form> */}
+      {/* List of countries */}
+      {/* <Columns queries={queries}>{countries}</Columns> */}
     </div>
   );
 }
